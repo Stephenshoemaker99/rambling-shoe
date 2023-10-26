@@ -1,9 +1,10 @@
-import Image from 'next/image'
+import '@fontsource/inter';
+import AppTabs from './AppTabs';
 
 export default function Home() {
   return (
     <main>
-      <h1>Hello world</h1>
+      <AppTabs/>
     </main>
   )
 }
